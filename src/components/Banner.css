@@ -1,0 +1,17 @@
+.page-banner {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #003366;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .page-banner h1 {
+    color: #ffffff;
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+  
