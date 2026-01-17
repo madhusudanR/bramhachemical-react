@@ -7,15 +7,15 @@ import About from './pages/About'
 import Product from './pages/Product'
 import Facilities from './pages/Facilities'
 import Contact from './pages/Contact'
-import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import NavbarMobile from './components/NavbarMobile'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-        <Navbar />
+        <NavbarMobile />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />

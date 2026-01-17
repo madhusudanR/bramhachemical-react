@@ -6,6 +6,8 @@ import AboutPreview from '../components/AboutPreview';
  const heroSlides = [
     {
         image: "/images/hero1.jpg",
+        title: "BRAMHA CHEMICALS",
+        subtitle: "Innovative Agrochemical Solutions",
     },
     {
         image: "/images/hero2.jpg",
